@@ -1,0 +1,316 @@
+body {
+  margin: 10px 25px;
+}
+
+/* baggrundsbillede til forsiden,
+samme billede bruges til de 3 undersider*/
+#bforside {
+  background-image: url(IMG/Forside\(udenlogo\).jpg);
+}
+
+#searchbar {
+  font-size: medium;
+  color: #ffffff;
+  display: flex;
+  border: #ffffff;
+  border-style: solid;
+  justify-content: flex-end;
+  padding: 30px 20px 27px 150px;
+  margin-top: 25px;
+  font-weight: lighter;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  background-color: transparent;
+  border: #ffffff;
+  border-style: solid;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+li a, .drop {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+li a:hover, .dropdown:hover .drop {
+  font-size: 115%;
+}
+  
+li.dropdown {
+  display: inline-block;
+}
+  
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+  
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  text-align: center;
+}
+  
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+  
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  
+#searchbarfront {
+  font-size: medium;
+  color: #ffffff;
+  display: flex;
+  border: #ffffff;
+  border-style: solid;
+  justify-content: flex-end;
+  margin-top: 50px;
+  padding: 10px 10px;
+  font-weight: lighter;
+}
+
+.menu-search {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  margin-top: 20px;
+  padding: 0;
+  height: 220px;
+}
+
+#tekstfront {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: larger;
+  color: #ffffff;
+}
+
+.main-front {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  max-width: 450px;
+  margin: 350px 0px 0px 950px;
+}
+
+.header {
+  display: flex;
+  margin: 3%;
+  justify-content: space-around;
+}
+
+#menu {
+  background-color: transparent;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.logounderside {
+  margin-top: 30px;
+  width: 500px;
+}
+
+.bodyunderside {
+  background-image: url(IMG/baggrund\(underside\).png);
+  background-size: 100%;
+}
+
+.h1 {
+  font-size: 65pt;
+  font-family: 'Lucida Grande', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  color: #ffffff;
+}
+
+#dobbelbillede {
+  width: 600px;
+  margin-right: 200px;
+}
+
+.underoverskrift1 {
+  color: black;
+  font-family: 'Lucida Grande', sans-serif;
+}
+
+#bænkbillede {
+  width: 600px;
+  margin-left: 110px;
+}
+
+.sociallogo {
+  width: 45px;
+}
+
+.logobund {
+  width: 120px;
+}
+
+.footerp {
+  color: #ffffff;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  position: relative;
+  border-style: solid;
+  border-color: #ffffff;
+  padding: 7px;
+  margin-top: 110px;
+}
+
+.brødtekst-titel {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.brødtekst-tekst {
+  font-family: sans-serif;
+  font-weight: lighter;
+  max-width: 70%;
+  color: black;
+}
+
+.brødtekst-tekst1 {
+  max-width: 87%;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.tekst1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.billede-flexbox {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.billede-kolonne {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin-left: 50px;
+}
+
+.genbrugbillede1 {
+  width: 68%;
+}
+
+.genbrugbillede2 {
+  width: 94%;
+}
+
+.genbrugbillede3 {
+  width: 90%;
+}
+
+#hækleribillede {
+  height: 750px;
+  margin-right: 50px;
+  margin-left: 80px;
+}
+
+.topskrift {
+  color: black;
+  margin-left: 340px;
+  margin-right: 340px;
+  padding-bottom: 100px;
+  font-size: 15pt;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.h2 {
+  color: black;
+  text-align: center;
+}
+
+.h3 {
+  color: black;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+#skriftunderside3 {
+  color: #000000;
+  margin-right: 800px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+
+#underoverskrift3 {
+  color: black;
+  margin-left: 50px;
+  margin-left: 80px;
+}
+
+.main {
+  background-color: #ffffff;
+  opacity: 87%;
+  padding: 30px;
+}
+
+.flexbox-genbrug {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.block1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px 30px 0px 30px;
+}
+
+.block2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin: 100px 30px 50px 30px;
+}
+
+#u {
+  color: #ffffff;
+}
+
+.liste-diy {
+  max-width: 90%;
+}
